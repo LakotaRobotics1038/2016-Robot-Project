@@ -385,15 +385,15 @@
 				<Item Name="NI_Robotics_Caster Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Caster Wheel/NI_Robotics_Caster Wheel.lvclass"/>
 				<Item Name="NI_Robotics_Omnidirectional Wheel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Steering/Omnidirectional Wheel/NI_Robotics_Omnidirectional Wheel.lvclass"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
@@ -424,20 +424,20 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Camera Types.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Camera Types.ctl"/>
-			<Item Name="Label Targets2.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Label Targets2.vi"/>
-			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Sorted Particle Report 2016.vi"/>
-			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalized Range Compare 2016.vi"/>
-			<Item Name="Normalize Score.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalize Score.vi"/>
-			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Aspect Ratio Score 2016.vi"/>
-			<Item Name="Area Scoring.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Area Scoring.vi"/>
-			<Item Name="Moment Score.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Moment Score.vi"/>
-			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Calculate Particle Scores.vi"/>
-			<Item Name="Get camera FOVs.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Get camera FOVs.vi"/>
-			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Compute DistanceToTarget2.vi"/>
-			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/examples/FRC/roboRIO/Vision/2016 Vision Example/Vision Support Code/Normalize Coordinates.vi"/>
+			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision Support Code/Camera Types.ctl"/>
+			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision Support Code/Label Targets2.vi"/>
+			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
+			<Item Name="Calculate Particle Scores.vi" Type="VI" URL="../Vision Support Code/Calculate Particle Scores.vi"/>
+			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision Support Code/Normalize Coordinates.vi"/>
 			<Item Name="Auton Defenses Enum.ctl" Type="VI" URL="../Auton Defenses Enum.ctl"/>
 			<Item Name="AutoStatesTypeDef.ctl" Type="VI" URL="../AutoStatesTypeDef.ctl"/>
+			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../Vision Support Code/Normalized Range Compare 2016.vi"/>
+			<Item Name="Normalize Score.vi" Type="VI" URL="../Vision Support Code/Normalize Score.vi"/>
+			<Item Name="Aspect Ratio Score 2016.vi" Type="VI" URL="../Vision Support Code/Aspect Ratio Score 2016.vi"/>
+			<Item Name="Area Scoring.vi" Type="VI" URL="../Vision Support Code/Area Scoring.vi"/>
+			<Item Name="Moment Score.vi" Type="VI" URL="../Vision Support Code/Moment Score.vi"/>
+			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision Support Code/Get camera FOVs.vi"/>
+			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision Support Code/Compute DistanceToTarget2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
